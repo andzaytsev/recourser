@@ -1,4 +1,1 @@
-mhacks
-======
-
-Repository for MHacks III
+Recourser is a project that helps you create a plan for your college career. Currently it uses UIUC database of courses, but in the future more universities will be added.
