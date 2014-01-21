@@ -1,0 +1,97 @@
+body{
+	background-color: white;
+	width:100%;
+}
+#header{
+	background-color:#FFA500;
+}
+#menu{
+	background-color:#FFD700;
+	min-height:100%;
+	width:20%;
+	float:left;
+}
+#content{
+	background-color:#EEEEEE;
+	min-height:100%;
+	width:80%;
+	float:left;
+}
+.searchTable tr{
+	width: 20px;
+	height: 30px;
+}
+.searchTable td{
+	width: 20px;
+	height: 30px;
+}
+.searchTerm{
+	float:left;
+}
+.cell{
+	background-color:red;
+	width:50%;
+	height:100px;
+	border-radius: 6px;
+}
+
+.chosen {
+	min-height: 20px;
+}
+
+#semesters{
+	float:right;
+}
+.centerButton{
+	position: relative;
+	margin: 0 auto;
+	top: 50%;
+	left: 50%;
+}
+footer{
+	background-color: black;
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	width: 100%;
+}
+/*.container{
+	position: fixed;
+	width: 100%;
+}*/
+.container {
+     padding-right: 0;
+     padding-left: 0; 
+     margin-right: auto;
+     margin-left: auto;
+}
+#instructions{
+	font-size: 15px !important;
+	width: 90% !important;
+}
+#searchForm{
+	float: left;
+	left: 10px !important;
+}
+#mainInterface{
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#resultsScroll{
+	overflow: auto;
+}
+
+#dummyTable{
+	margin-bottom: 0px !important;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#footer{
+	height: 40px;
+	padding: 5px;
+}
